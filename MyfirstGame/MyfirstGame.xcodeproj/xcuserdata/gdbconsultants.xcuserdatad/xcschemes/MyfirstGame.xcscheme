@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "47A9D2DD1BE76EAF007FCB4B"
-               BuildableName = "MyfirstProject"
-               BlueprintName = "MyfirstProject"
-               ReferencedContainer = "container:MyfirstProject.xcodeproj">
+               BlueprintIdentifier = "47A9D2F21BE77466007FCB4B"
+               BuildableName = "MyfirstGame"
+               BlueprintName = "MyfirstGame"
+               ReferencedContainer = "container:MyfirstGame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47A9D2DD1BE76EAF007FCB4B"
-            BuildableName = "MyfirstProject"
-            BlueprintName = "MyfirstProject"
-            ReferencedContainer = "container:MyfirstProject.xcodeproj">
+            BlueprintIdentifier = "47A9D2F21BE77466007FCB4B"
+            BuildableName = "MyfirstGame"
+            BlueprintName = "MyfirstGame"
+            ReferencedContainer = "container:MyfirstGame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,10 +52,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47A9D2DD1BE76EAF007FCB4B"
-            BuildableName = "MyfirstProject"
-            BlueprintName = "MyfirstProject"
-            ReferencedContainer = "container:MyfirstProject.xcodeproj">
+            BlueprintIdentifier = "47A9D2F21BE77466007FCB4B"
+            BuildableName = "MyfirstGame"
+            BlueprintName = "MyfirstGame"
+            ReferencedContainer = "container:MyfirstGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "47A9D2DD1BE76EAF007FCB4B"
-            BuildableName = "MyfirstProject"
-            BlueprintName = "MyfirstProject"
-            ReferencedContainer = "container:MyfirstProject.xcodeproj">
+            BlueprintIdentifier = "47A9D2F21BE77466007FCB4B"
+            BuildableName = "MyfirstGame"
+            BlueprintName = "MyfirstGame"
+            ReferencedContainer = "container:MyfirstGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

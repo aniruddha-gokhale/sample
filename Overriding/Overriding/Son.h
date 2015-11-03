@@ -9,6 +9,7 @@
 #import "Mom.h"
 
 @interface Son : Mom{
+    int newVar;
     
 }
 -(void)setNum1;

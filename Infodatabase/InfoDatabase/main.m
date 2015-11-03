@@ -13,12 +13,14 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         char response;
+        NSMutableArray *people = [[NSMutableArray alloc] init];
         do{
         
         Person *newPerson=[[Person alloc]init];
         
         [newPerson enterinfo];
         [newPerson printinfo];
+        [people addObject:newPerson];
         
             NSLog(@"Do yo want to enter the another name in database(y/n)?");
             scanf("%s",&response);

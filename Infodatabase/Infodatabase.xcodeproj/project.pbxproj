@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47A9D2F71BE77466007FCB4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A9D2F61BE77466007FCB4B /* main.m */; };
+		47EB351E1BE8B8C2005CA076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB351D1BE8B8C2005CA076 /* main.m */; };
+		47EB35281BE8B967005CA076 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EB35271BE8B967005CA076 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		47A9D2F11BE77466007FCB4B /* CopyFiles */ = {
+		47EB35181BE8B8C2005CA076 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		47A9D2F31BE77466007FCB4B /* MyfirstGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyfirstGame; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A9D2F61BE77466007FCB4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47EB351A1BE8B8C2005CA076 /* Infodatabase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Infodatabase; sourceTree = BUILT_PRODUCTS_DIR; };
+		47EB351D1BE8B8C2005CA076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47EB35261BE8B942005CA076 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		47EB35271BE8B967005CA076 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47A9D2F01BE77466007FCB4B /* Frameworks */ = {
+		47EB35171BE8B8C2005CA076 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		47A9D2EA1BE77466007FCB4B = {
+		47EB35111BE8B8C2005CA076 = {
 			isa = PBXGroup;
 			children = (
-				47A9D2F51BE77466007FCB4B /* MyfirstGame */,
-				47A9D2F41BE77466007FCB4B /* Products */,
+				47EB351C1BE8B8C2005CA076 /* Infodatabase */,
+				47EB351B1BE8B8C2005CA076 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		47A9D2F41BE77466007FCB4B /* Products */ = {
+		47EB351B1BE8B8C2005CA076 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47A9D2F31BE77466007FCB4B /* MyfirstGame */,
+				47EB351A1BE8B8C2005CA076 /* Infodatabase */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47A9D2F51BE77466007FCB4B /* MyfirstGame */ = {
+		47EB351C1BE8B8C2005CA076 /* Infodatabase */ = {
 			isa = PBXGroup;
 			children = (
-				47A9D2F61BE77466007FCB4B /* main.m */,
+				47EB35261BE8B942005CA076 /* Person.h */,
+				47EB35271BE8B967005CA076 /* Person.m */,
+				47EB351D1BE8B8C2005CA076 /* main.m */,
 			);
-			path = MyfirstGame;
+			path = Infodatabase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47A9D2F21BE77466007FCB4B /* MyfirstGame */ = {
+		47EB35191BE8B8C2005CA076 /* Infodatabase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47A9D2FA1BE77466007FCB4B /* Build configuration list for PBXNativeTarget "MyfirstGame" */;
+			buildConfigurationList = 47EB35211BE8B8C2005CA076 /* Build configuration list for PBXNativeTarget "Infodatabase" */;
 			buildPhases = (
-				47A9D2EF1BE77466007FCB4B /* Sources */,
-				47A9D2F01BE77466007FCB4B /* Frameworks */,
-				47A9D2F11BE77466007FCB4B /* CopyFiles */,
+				47EB35161BE8B8C2005CA076 /* Sources */,
+				47EB35171BE8B8C2005CA076 /* Frameworks */,
+				47EB35181BE8B8C2005CA076 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyfirstGame;
-			productName = MyfirstGame;
-			productReference = 47A9D2F31BE77466007FCB4B /* MyfirstGame */;
+			name = Infodatabase;
+			productName = Infodatabase;
+			productReference = 47EB351A1BE8B8C2005CA076 /* Infodatabase */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		47A9D2EB1BE77466007FCB4B /* Project object */ = {
+		47EB35121BE8B8C2005CA076 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "GDB Consultants";
 				TargetAttributes = {
-					47A9D2F21BE77466007FCB4B = {
+					47EB35191BE8B8C2005CA076 = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
-			buildConfigurationList = 47A9D2EE1BE77466007FCB4B /* Build configuration list for PBXProject "MyfirstGame" */;
+			buildConfigurationList = 47EB35151BE8B8C2005CA076 /* Build configuration list for PBXProject "Infodatabase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 47A9D2EA1BE77466007FCB4B;
-			productRefGroup = 47A9D2F41BE77466007FCB4B /* Products */;
+			mainGroup = 47EB35111BE8B8C2005CA076;
+			productRefGroup = 47EB351B1BE8B8C2005CA076 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47A9D2F21BE77466007FCB4B /* MyfirstGame */,
+				47EB35191BE8B8C2005CA076 /* Infodatabase */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47A9D2EF1BE77466007FCB4B /* Sources */ = {
+		47EB35161BE8B8C2005CA076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47A9D2F71BE77466007FCB4B /* main.m in Sources */,
+				47EB35281BE8B967005CA076 /* Person.m in Sources */,
+				47EB351E1BE8B8C2005CA076 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		47A9D2F81BE77466007FCB4B /* Debug */ = {
+		47EB351F1BE8B8C2005CA076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -165,7 +171,7 @@
 			};
 			name = Debug;
 		};
-		47A9D2F91BE77466007FCB4B /* Release */ = {
+		47EB35201BE8B8C2005CA076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,14 +205,14 @@
 			};
 			name = Release;
 		};
-		47A9D2FB1BE77466007FCB4B /* Debug */ = {
+		47EB35221BE8B8C2005CA076 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		47A9D2FC1BE77466007FCB4B /* Release */ = {
+		47EB35231BE8B8C2005CA076 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -216,25 +222,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47A9D2EE1BE77466007FCB4B /* Build configuration list for PBXProject "MyfirstGame" */ = {
+		47EB35151BE8B8C2005CA076 /* Build configuration list for PBXProject "Infodatabase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47A9D2F81BE77466007FCB4B /* Debug */,
-				47A9D2F91BE77466007FCB4B /* Release */,
+				47EB351F1BE8B8C2005CA076 /* Debug */,
+				47EB35201BE8B8C2005CA076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47A9D2FA1BE77466007FCB4B /* Build configuration list for PBXNativeTarget "MyfirstGame" */ = {
+		47EB35211BE8B8C2005CA076 /* Build configuration list for PBXNativeTarget "Infodatabase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47A9D2FB1BE77466007FCB4B /* Debug */,
-				47A9D2FC1BE77466007FCB4B /* Release */,
+				47EB35221BE8B8C2005CA076 /* Debug */,
+				47EB35231BE8B8C2005CA076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 47A9D2EB1BE77466007FCB4B /* Project object */;
+	rootObject = 47EB35121BE8B8C2005CA076 /* Project object */;
 }
